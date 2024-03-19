@@ -1,0 +1,32 @@
+﻿@model List<Blog>;
+<div class="banner">Your blogs</div>
+<div class="card-container">
+    
+    @foreach(var obj in Model.OrderByDescending(i => i.Id))
+    {
+     <div class="card" >
+            <img src="@obj.ImageUrl" class="blogImage" />
+        <div class="card-content">
+                <h3>@obj.Title</h3>
+                <p>
+                    @if (@obj.Description.Length > 150)
+                    {
+                        @Html.Raw(obj.Description.Substring(0, 150) + "...");
+                        
+                    }else{
+                        @Html.Raw(obj.Description);
+                    }
+                </p>
+        </div>
+            <div>
+                <p style="margin-left: 10px; display:flex">
+                    <img src="@obj.User.ImageUrl" class="author" />
+                    <b style="padding-top: 25px; padding-left:10px;">@obj.Author</b></p>
+                <a asp-action="BlogDetail" asp-controller="Home" asp-route-id="@obj.Id" class="btn-custom">Read More</a>
+                <a asp-controller="Home" asp-route-id="@obj.Id" class="btn-custom" asp-action="Edit" style="background-color:cornflowerblue">Edit</a>
+                <a asp-controller="Home" asp-route-id="@obj.Id" class="btn-custom" asp-action="Delete" style="background-color:red">Delete</a>
+                @*<span>@obj.CreatedTime.ToLongDateString()</span>*@
+            </div>
+        </div>
+    }
+</div>

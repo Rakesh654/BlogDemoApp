@@ -1,0 +1,31 @@
+﻿@model CommentVM;
+<h1 style="text-align:center">Add Comments</h1>
+<div style="width: 50%; margin: 0 25%">
+    <form method="post" enctype="multipart/form-data">
+        <input type="text" asp-for="CreatedBy" value="@User.Identity.Name" hidden />
+        <input type="text" asp-for="BlogId" value="@ViewBag.blogId" hidden />
+        <input type="text" asp-for="Id"  hidden/>
+        <label asp-for="Comment"></label>
+        <textarea asp-for="Comment" type="" id="lname" placeholder="Brief Description.."></textarea>
+        <span asp-validation-for="Comment"></span>
+
+        <input type="submit" asp-action="Create" asp-controller="Comment" value="Submit">
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap lists table visualblocks wordcount checklist casechange formatpainter pageembed a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode advtemplate footnotes mergetags autocorrect typography inlinecss',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
+    @{
+        <partial name="_ValidationScriptsPartial" />
+
+    }
+}

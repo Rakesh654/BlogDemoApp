@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlogApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\03ed6356-797f-4d9e-ac77-eb3ec9af4afd.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\03ed6356-797f-4d9e-ac77-eb3ec9af4afd.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\080c2e61-d1ef-49d1-bf9e-31a97bf7c0e6.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\080c2e61-d1ef-49d1-bf9e-31a97bf7c0e6.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\0cc0be49-1a5a-4555-8935-a4298ad63ce9.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\0cc0be49-1a5a-4555-8935-a4298ad63ce9.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\40a9992e-df00-4721-98e5-34d96bb08212.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\40a9992e-df00-4721-98e5-34d96bb08212.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\4119fd6b-fe8c-4aa0-957e-e3f4606b208b.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\4119fd6b-fe8c-4aa0-957e-e3f4606b208b.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\491c0a00-cd33-4e03-9964-551e4e85db83.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\491c0a00-cd33-4e03-9964-551e4e85db83.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\8b8e8240-569e-4709-8576-b0054dfe7024.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\8b8e8240-569e-4709-8576-b0054dfe7024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\8f211453-0f59-4279-8764-26f2088476d4.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\8f211453-0f59-4279-8764-26f2088476d4.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\c9693e7b-e0b4-4eda-9038-be4947918d50.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\c9693e7b-e0b4-4eda-9038-be4947918d50.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\cada6a69-1a81-47dd-aafe-3aa9813bae51.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\cada6a69-1a81-47dd-aafe-3aa9813bae51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\blog\\cf36b205-3eb5-4fb6-b7f7-6cc8e3cb4165.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\cf36b205-3eb5-4fb6-b7f7-6cc8e3cb4165.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\userProfile\\1cd1ae0f-53d1-4087-8523-5ff4df1d615f.jpg",
+      "PackagePath": "staticwebassets\\images\\userProfile\\1cd1ae0f-53d1-4087-8523-5ff4df1d615f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\userProfile\\48991378-6c6b-44da-b266-d12a48db84b1.jpg",
+      "PackagePath": "staticwebassets\\images\\userProfile\\48991378-6c6b-44da-b266-d12a48db84b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\images\\userProfile\\6d139838-bed1-4db4-84cc-97e7740ff97a.webp",
+      "PackagePath": "staticwebassets\\images\\userProfile\\6d139838-bed1-4db4-84cc-97e7740ff97a.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakes\\Source\\Repos\\BlogDemoApp\\BlogApp\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlogApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlogApp.props",
+      "PackagePath": "build\\BlogApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlogApp.props",
+      "PackagePath": "buildMultiTargeting\\BlogApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlogApp.props",
+      "PackagePath": "buildTransitive\\BlogApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

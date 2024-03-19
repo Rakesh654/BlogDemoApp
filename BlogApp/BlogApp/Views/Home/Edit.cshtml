@@ -1,0 +1,37 @@
+﻿@model BlogCreateVM;
+<h1 style="text-align:center">Add Blog</h1>
+<div style="width: 50%; margin: 0 25%">
+    <form method="post" enctype="multipart/form-data">
+        <input type="text" asp-for="Email" value="@User.Identity.Name" hidden />
+        <label asp-for="Title"></label>
+        <input asp-for="Title" type="text" id="fname" placeholder="Title..">
+        <span asp-validation-for="Title"></span>
+
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" type="" id="lname" placeholder="Brief Description.."></textarea>
+        <span asp-validation-for="Description"></span>
+
+        <label>Image</label>
+        <input type="file" name="file" />
+        <input type="text" asp-for="ImageUrl" hidden/>
+        <img src="@Model.ImageUrl" style="width: 20%"/>
+        <input type="submit" asp-action="Edit" value="Submit">
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap lists table visualblocks wordcount checklist casechange formatpainter pageembed a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode advtemplate footnotes mergetags autocorrect typography inlinecss',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
+    @{
+        <partial name="_ValidationScriptsPartial" />
+
+    }
+}

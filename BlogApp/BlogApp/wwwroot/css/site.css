@@ -1,0 +1,258 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: rgb(226,225,241);
+    background: linear-gradient(90deg, rgba(226,225,241,1) 0%, rgba(237,213,231,0.036939775910364125) 54%, rgba(200,240,249,1) 100%);
+}
+
+.banner {
+    width: 100%;
+    padding-top: 7%;
+    font-size: 40px;
+    text-align: center;
+    /*background-color: black;*/
+    color: white;
+    height: 300px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,113,1) 41%, rgba(0,212,255,1) 100%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px
+}
+
+.card{
+    width: 325px;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px
+}
+
+    .card .blogImage {
+        width: 100%;
+        height: 250px;
+        display: block;
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+.card-content{
+    padding:16px;
+    height: 170px;
+    /*border: 1px solid black;*/
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.card-content p {
+    /*height: 200px;*/
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.btn-custom {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #666;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 10px;
+        color: white
+}
+
+.btn-custom:hover {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: darkgrey;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px;
+    color: black;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .blogDetail .img img {
+        width: 100%;
+        height: auto;
+    }
+
+.description{
+    margin: 20px;   
+}
+.blogDetail{
+display: flex;
+/*justify-content: space-between;*/
+}
+
+.img {
+    width: 30%;
+    height: auto;
+    /*border: 2px solid black;*/
+}
+.content {
+    padding-left: 50px;
+    width: 70%;
+    height: auto;
+    border: 1px solid grey;
+    background-color:white;
+}
+
+.author {
+    width: 15% !important;
+    display: block;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.author-detail{
+    display: flex;
+    margin-top: 10px;
+}
+
+.alertbox {
+    text-align: center;
+    border: 2px solid black;
+    width: 60%;
+    padding: 4px;
+    margin: 20px 20%;
+    background-color: white;
+}
+
+.comment-section {
+    width: auto;
+    margin-left: 29%;
+    padding: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.comment-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-text {
+    line-height: 1.5;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .blogDetail {
+        display:block;
+        /*justify-content: space-between;*/
+    }
+    /* For mobile phones: */
+    .comment-section {
+        width: auto;
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .content {
+        padding: 0px 13px;
+        width:100%;
+        height: auto;
+        border: 1px solid grey;
+        background-color: white;
+    }
+    
+    .blogDetail .img img {
+        width: fit-content;
+        height: auto;
+        margin:0 50%;
+    }
+
+    .author {
+        width: 63% !important;
+        display: block;
+        max-width: 500px;
+        max-height: 300px;
+        border-radius: 50%;
+    }
+
+    .blogDetail .img img {
+        /* width: 100%; */
+        margin: 0 45px;
+        align-items: center;
+        height: auto;
+    }

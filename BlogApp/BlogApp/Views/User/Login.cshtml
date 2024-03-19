@@ -1,0 +1,24 @@
+﻿@model LoginUserVM;
+<h1 style="text-align:center">Login</h1>
+<div style="width: 50%; margin: 0 25%">
+    <form method="post">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="text" id="email" placeholder="Email..">
+        <span asp-validation-for="Email" style="color: red"></span>
+        <span style="color: red">@TempData["userError"]</span>
+
+        <br />
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="Password" id="password" placeholder="Password..">
+        <span asp-validation-for="Password" style="color: red"></span>
+        <span style="color: red">@TempData["password"]</span>
+        <input type="submit" asp-action="Login" value="Submit">
+    </form>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+
+    }
+}

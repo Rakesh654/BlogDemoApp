@@ -1,0 +1,62 @@
+﻿@model BlogVM;
+<div class="blogDetail">
+<div class="img">
+        <img src="@Model.blog.ImageUrl" />
+        <div class="author-detail">
+            <img src="@Model.blog.ImageUrl" class="author" />
+            <b style="padding-top:30px; padding-left:10px;">Author: @Model.blog.Author |</b>
+            <b style="padding-top:30px; padding-left:10px;">@Model.blog.CreatedTime.ToLongDateString()</b>
+        </div>
+</div>
+<div class="content">
+        <h1 style="text-align:center">@Model.blog.Title</h1>
+        <p class="description">@Html.Raw(@Model.blog.Description)</p>
+        <b>Author: @Model.blog.Author</b>
+        <p>@Model.blog.CreatedTime.ToLongDateString()</p>
+</div>
+    
+</div>
+<div class="comment-section">
+    <div style="display:flex; justify-content: space-between;">
+        <h2>Comments</h2>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a class="btn-custom" asp-route-blogId="@Model.blog.Id" asp-controller="Comment" asp-action="Index">Add Comment</a>
+        }
+        else
+        {
+            <a class="btn-custom" asp-controller="User" asp-action="Login">Login to add comment</a>
+        }
+
+    </div> 
+    <hr />
+    @if(Model.Comments == null || Model.Comments.Count == 0)
+    {
+        <div class="comment">
+            <div class="comment-details">
+                <div class="comment-author">No Comments</div>
+            </div>
+        </div>
+    }
+    else
+    {
+        @foreach (var obj in Model.Comments)
+        {
+            <div class="comment">
+                <div class="comment-details">
+                    <div class="comment-author">@obj.User.Name</div>
+                    <div class="comment-date">@obj.CreatedTime.ToLongDateString()</div>
+                </div>
+                <p class="comment-text">@Html.Raw(@obj.Comment)</p>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if(User.Identity.Name.ToLower() == obj.CreatedBy)
+                    {
+                        <a class="btn-custom" asp-route-blogId="@Model.blog.Id" asp-route-commentId="@obj.Id" style="background-color: darkred; color: white" asp-controller="Comment" asp-action="Index">Edit</a>
+                    }
+                }
+            </div>
+        }
+    }  
+        <!-- Additional comments can be added here -->
+</div>
